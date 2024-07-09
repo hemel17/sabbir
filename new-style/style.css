@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", "Serif";
+}
+
+/*banner section style starts here*/
+
+.banner-container {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("/images/banner_image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-items {
+  color: rgb(255, 255, 255);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-items p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-items h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* banner section style ends here */
+
+/* discounts section style starts here */
+
+.discounts-section-container {
+  width: 802.9px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.discounts-items {
+  text-align: center;
+  height: 306px;
+}
+.discounts-items h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.discounts-items p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discounts-items h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.discounts-image {
+  width: 802.9px;
+  height: 500px;
+  border: 2px dashed rgb(231, 218, 218);
+}
+.discounts-image img {
+  width: 802.9px;
+  height: 500px;
+}
+/* discounts section style ends here */
+
+/* midnight party section style starts here */
+
+.midnight-party-contanier {
+  width: 1320px;
+  height: 600px;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(/images/vector.png);
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+}
+.party-items {
+  width: 60%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 150px;
+}
+.midnight-party-contanier h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+}
+.midnight-party-contanier p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.midnight-party-contanier .button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+.party-image {
+  width: 40%;
+  height: 600px;
+}
+.party-image img {
+  width: 319.83px;
+  height: 464.66px;
+  margin-top: 65px;
+}
+/* midnight party section style ends here */
+
+/* invitation card section style starts here */
+.card-container {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-items {
+  width: 549px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-items p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.card-items .place,
+.class {
+  color: rgb(255, 0, 0);
+}
+.card-items button {
+  border-radius: 8px;
+  color: white;
+  background: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  width: 167px;
+  height: 56px;
+  margin-top: 50px;
+}
+/* invitation card section style ends here */
+
+/* coming soon section style starts here */
+.coming-soon-container {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coming-soon-text {
+  width: 428.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.coming-soon-text h4 {
+  color: rgb(255, 0, 0);
+}
+.coming-soon-text h1,
+.port-text,
+.subs {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.coming-soon-image {
+  width: 463px;
+  height: 463px;
+  border: 10px solid red;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coming-soon-image img {
+  width: 364.84px;
+  height: 364.84px;
+}
+.coming-soon-2024 {
+  width: 428.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 60px;
+  position: relative;
+}
+.coming-soon-2024 h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.coming-soon-2024 p,
+.latter {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.coming-soon-2024 .img {
+  width: 140px;
+  height: 140px;
+  margin-top: 320px;
+  position: absolute;
+}
+/* coming soon section styles ends here */
+
+/* holidays sales section styles starts here */
+.holidays-sales-container {
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.holidays-sales-text {
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
+.holidays-sales-text h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holidays-sales-text h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holidays-sales-text p,
+.para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+.holidays-sales-items {
+  width: 1320px;
+  height: 662.07px;
+  margin-top: 64px;
+  position: relative;
+}
+.holidays-sales-items .red-color {
+  width: 1320px;
+  height: 229px;
+  position: absolute;
+  bottom: 0;
+}
+.holidays-sales-items .parent {
+  display: flex;
+}
+.holidays-sales-items .gift-box-1 {
+  width: 796.46px;
+  height: 662.07px;
+  position: relative;
+}
+.gift-box-1 img {
+  width: 674.82px;
+  height: 577.96px;
+  margin-left: 60.83px;
+}
+.gift-box-2 {
+  width: 523.54px;
+  height: 662.07px;
+  display: flex;
+}
+.gift-box-2 .circle {
+  width: 206.84px;
+  height: 206.84px;
+  position: absolute;
+  z-index: 1;
+  top: 105px;
+  left: 690px;
+}
+.gift-box-2 .Rectangle {
+  width: 520px;
+  height: 428px;
+  position: relative;
+}
+/* holidays sales section styles ends here */
+
+/* portfolio section style starts here */
+.portfolio-container {
+  width: 1320px;
+  height: 1118px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.portfolio-text h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-images {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+.grid-item {
+  width: 424px;
+  height: 450px;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+}
+/* portfolio section style ends here */
+
+/* newslatter section style starts here */
+.newslatter-container {
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  margin-top: 80px;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+.newslatter-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.newslatter-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+.newslatter-btn {
+  width: 648px;
+  height: 72px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.newslatter-btn input {
+  width: 438px;
+  height: 72px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+}
+.newslatter-btn button {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+/* newslatter section style ends here */
+
+/* footer style starts here */
+.footer {
+  width: 1600px;
+  height: 609px;
+  border: 2px solid red;
+  margin: 0 auto;
+  background: rgb(7, 2, 17);
+  margin-top: 80px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-address {
+  width: 1185px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-address .number img {
+  width: 24px;
+  height: 24px;
+}
+.footer-address .number {
+  width: 250px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.footer-items {
+  width: 328px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer-items img {
+  width: 64px;
+  height: 64px;
+}
+.footer-copy {
+  width: 1100px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+/* footer style ends here */
